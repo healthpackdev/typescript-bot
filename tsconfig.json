@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "web",
+    "rootDir": "src",
+    "skipLibCheck": true,
+    // "baseUrl": "./src",
+    // "paths": {
+    //   "client/*": ["../web/client/*"],
+    //   "modal/*": ["./dist/data/*"],
+    //   "files/*": ["./dist/*"]
+    // },
+    "removeComments": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  }
+}

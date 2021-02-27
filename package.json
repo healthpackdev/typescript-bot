@@ -1,0 +1,48 @@
+{
+  "name": "moderation-bot-ts",
+  "version": "0.0.1",
+  "description": "this discord bot has been created by ts and tsx",
+  "types": "src/dist/@types/index.d.ts",
+  "main": "web/index.js",
+  "scripts": {
+    "start": "node web/index.js",
+    "dev": "tsc && node web/index.js",  
+    "heroku-postbuild": "tsc && cd web/client && npm install && npm run build",
+    "setup": "npm install && tsc && cd web/client && npm install && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/healthpackTR/moderation-bot-ts.git"
+  },
+  "keywords": [
+    "ts",
+    "tsx",
+    "discord",
+    "bot",
+    "discord-bot",
+    "react-ts",
+    "react",
+    "discord-bot-dashboard",
+    "bot-dashboard"
+  ],
+  "author": "Yasin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/healthpackTR/moderation-bot-ts/issues"
+  },
+  "homepage": "https://github.com/healthpackTR/moderation-bot-ts#readme",
+  "engines": {
+    "node": "12.x"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.11.15"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "@types/ws": "^7.4.0",
+    "typescript": "^4.1.5"
+  }
+}

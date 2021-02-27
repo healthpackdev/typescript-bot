@@ -1,0 +1,19 @@
+{
+  "bot": {
+    "name": "bot name",
+    "token": "token",
+    "prefix": "!",
+    "embed-color": "#fff"
+  },
+  "database": {
+    "url": "mongodb url"
+  },
+  "people": {
+    "owner": "",
+    "admin": []
+  },
+  "web": {
+    "domain": "",
+    "port": "3000"
+  }
+}
