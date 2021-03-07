@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node web/index.js",
     "dev": "tsc && node web/index.js",  
-    "heroku-postbuild": "tsc && cd web/client && npm install && npm run build",
-    "setup": "npm install && tsc && cd web/client && npm install && npm run build"
+    "heroku-postbuild": "tsc",
+    "setup": "npm install && tsc"
   },
   "repository": {
     "type": "git",
