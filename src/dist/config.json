@@ -7,13 +7,5 @@
   },
   "database": {
     "url": "mongodb url"
-  },
-  "people": {
-    "owner": "",
-    "admin": []
-  },
-  "web": {
-    "domain": "",
-    "port": "3000"
   }
 }
